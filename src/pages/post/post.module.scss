@@ -1,1 +1,38 @@
-// TODO
+.contentContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    img{
+        width: 100%;
+    }
+}
+.logoContainer{
+    height: 105px;
+    display: flex;
+    width: 720px;
+
+
+}
+.postContent{
+    width: 720px;
+    margin-top: 5rem;
+    color: white;
+    h2{
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+        &:first-child{
+            margin-top: 0;
+        }
+    }
+}
+.iconContainer{
+    margin-top: 1.125rem;
+    display: flex;
+    margin-bottom: 1.125rem;
+    span{
+        margin-left: 1.125rem;
+        &:first-child{
+            margin-left: 0;
+        }
+    }
+}
